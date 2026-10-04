@@ -13,21 +13,21 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || "",
     PREFIX: getConfig("PREFIX") || ".",
     CHATBOT: getConfig("CHATBOT") || "on",
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "\u{1D400}\u{1D403}\u{1D6B4}\u{1D6B4}\u{1D40B}-\u{1D40C}\u{1D403}",
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "Farhan MD",
     MODE: getConfig("MODE") || process.env.MODE || "public",
     REPO: process.env.REPO || "https://github.com/ADEEL-XMD/romanranger",
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923174838990",
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "\u{1D400}\u{1D403}\u{1D6B4}\u{1D6B4}\u{1D40B}-\u{1D40C}\u{1D403}",
-    DEV: process.env.DEV || "923174838990",
-    DEVELOPER_NUMBER: '923174838990@s.whatsapp.net',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923299545685",
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Farhan Hacker",
+    DEV: process.env.DEV || "923299545685",
+    DEVELOPER_NUMBER: '923299545685@s.whatsapp.net',
 
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*ADEEL-MD VIEWED YOUR STATUS*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Farhan-MD VIEWED YOUR STATUS*",
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
     REJECT_MSG: process.env.REJECT_MSG || "*THIS PERSON NOT ALLOWED CALL*",
     
@@ -36,7 +36,7 @@ module.exports = {
     OWNER_REACT: process.env.OWNER_REACT || "false",
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
     CUSTOM_REACT_EMOJIS: getConfig("CUSTOM_REACT_EMOJIS") || process.env.CUSTOM_REACT_EMOJIS || "heart,fire,clap",
-    STICKER_NAME: process.env.STICKER_NAME || "ADEEL-MD",
+    STICKER_NAME: process.env.STICKER_NAME || "Farhan-MD",
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
     
     // ===== MEDIA & AUTOMATION =====
@@ -57,7 +57,7 @@ module.exports = {
     PM_BLOCKER: process.env.PM_BLOCKER || "true",
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
-    DESCRIPTION: process.env.DESCRIPTION || "*POWER BY MAFIA ADEEL*",
+    DESCRIPTION: process.env.DESCRIPTION || "*POWER BY Farhan_hacker*",
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
