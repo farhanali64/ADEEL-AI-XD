@@ -65,4 +65,8 @@ module.exports = {
     WELCOME: process.env.WELCOME || "false",
     GOODBYE: process.env.GOODBYE || "false",
     ADMIN_ACTION: process.env.ADMIN_ACTION || "false",
-};
+
+  CHANNEL_JID: "120363355999033157@newsletter",
+  CHANNEL_LINK: "https://whatsapp.com/channel/0029VbDZuY4A89MguGJxAr1X",
+  WACHANNEL: "https://whatsapp.com/channel/0029VbDZuY4A89MguGJxAr1X",
+    };
